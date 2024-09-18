@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="DuckGPT unlimited AI assistant." />
     <meta name="keywords" content="chatgpt, duckgpt, duckduckgo, AI" />
     <meta name="author" content="execal">
+    <meta property="og:image" content="./assets/ogcover.png">
     <title>DuckGPT Chat</title>
     <meta charset="UTF-8" />
     
@@ -85,7 +86,7 @@
     <div id="dailog" class="dailog"></div>
     <div class="header" id="nHead">
         <button id="new-chat-button">
-            <img class="iconImg headerIcon" src="assets/clear.png" alt="clear Chat" />
+            <img class="iconImg headerIcon" src="./assets/clear.png" alt="clear Chat" />
         </button>
     </div>
     <div class="header" id="sHead">
@@ -125,7 +126,7 @@
 
     <div id="intro-cards-container" class="intro-cards hidden">
       <div class="intro-card card-1">
-        <img src="assets/source.png" alt="Open Source Icon" />
+        <img src="./assets/source.png" alt="Open Source Icon" />
         <p>This GUI is an open-source project for <a href="https://github.com/vauth/duckgpt">DuckGPT</a></p>
       </div>
       <!-- <div class="intro-card card-2">
@@ -133,7 +134,7 @@
         <p>Click the "New Chat" button or type a message below to start.</p>
       </div> -->
       <div class="intro-card card-3">
-        <img src="assets/developer.png" alt="Developer Icon" />
+        <img src="./assets/developer.png" alt="Developer Icon" />
         <p>Front-End: <a href="https://github.com/ZAR0X">Zarox</a><br>Back-End: <a href="https://github.com/VAUTH">Vauth</a></p>
       </div>
     </div>
@@ -153,13 +154,13 @@
         <div id="placeholder">Type your message here...</div>
         <!-- <input type="text" id="chat-input" placeholder="Type your message here..." autofocus> -->
         <button id="send-button">
-          <img class="iconImg" src="assets/send.png" alt="Send" />
+          <img class="iconImg" src="./assets/send.png" alt="Send" />
         </button>
       </div>
     </div>
     <div id="particles-js"></div>
 
-    <script type="module" src="scripts/particles.js"></script>
-    <script type="module" src="scripts/script.js"></script>
+    <script type="module" src="./scripts/particles.js"></script>
+    <script type="module" src="./scripts/script.js"></script>
   </body>
 </html>

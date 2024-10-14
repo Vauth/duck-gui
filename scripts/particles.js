@@ -85,7 +85,7 @@ var pJS = function(canvas_el, params){
       events: {
         onhover: {
           enable: true,
-          mode: 'grab'
+          mode: 'repulse'
         },
         onclick: {
           enable: false,

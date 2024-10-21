@@ -1,3 +1,13 @@
+/* -----------------------------------------------
+/* Author : Zarox  - https://github.com/ZAR0X
+/* MIT license: http://opensource.org/licenses/MIT
+/* Demo  : https://duckgpt-gui.netlify.app/
+/* GitHub : https://github.com/ZAR0X/duck-gui
+/* How to use? : Check the GitHub README
+/* v0.5.5
+/* ----------------------------------------------- */
+
+
 import { marked } from "https://cdn.jsdelivr.net/npm/marked@5.1.0/lib/marked.esm.js";
 
 marked.setOptions({

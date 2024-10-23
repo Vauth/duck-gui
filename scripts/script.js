@@ -374,12 +374,12 @@ async function sendMessage() {
 
   const loading = loadingResponse();
   const history = JSON.parse(localStorage.getItem("chatHistory") || "[]");
-  const model = "gpt-4o-mini";
-  const userHistory = history.filter((message) => (message.role === "user" && !message.error));
+  // const model = "gpt-4o-mini";
+  const userHistory = (history.filter((message) => (message.role === "user" && !message.error))).map(({ error, ...rest }) => rest);
 
   const params = new URLSearchParams({
     prompt: prompt,
-    model: model,
+    // model: model,
     history: JSON.stringify(userHistory),
   });
   const errorText = "Oops! Something went wrong while retrieving the response. Please try again."

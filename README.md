@@ -1,4 +1,4 @@
-# DuckGPT GUI
+#  <a href="#Favicon"><img src="https://github.com/user-attachments/assets/b11de9df-f6b1-47a8-973f-cf66375748b9" width="33px"></a> DuckGPT GUI
 
 DuckGPT GUI is a user-friendly web-based interface for interacting with GPT-based conversational AI. The project aims to provide a simple and accessible chat interface powered by a GPT API for various conversational use cases.
 

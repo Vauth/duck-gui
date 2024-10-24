@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }}
   
   const link = document.createElement('link');
-  link.href = 'styles/styles.css';
+  link.href = 'https://vauth.github.io/duck-gui/styles/styles.css';
   link.rel = 'stylesheet';
   document.head.appendChild(link);
 });
@@ -230,7 +230,7 @@ function addParticles(element, pColors){
 
 function applyLightTheme() {
   const link = document.createElement('link');
-  link.href = 'styles/light.css'; 
+  link.href = 'https://vauth.github.io/duck-gui/styles/light.css'; 
   link.rel = 'stylesheet';
   link.id = 'lightThemeCss';
   document.head.appendChild(link);

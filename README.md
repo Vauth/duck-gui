@@ -10,7 +10,7 @@ DuckGPT GUI is a user-friendly web-based interface for interacting with GPT-base
 
 ## Live Demo
 
-Check out the live demo [here](https://duckgpt-gui.netlify.app/).
+Check out the live demo [here](https://zarox.is-a.dev/duck-gui/).
 
 ## How It Works
 

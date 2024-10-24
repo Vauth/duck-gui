@@ -35,7 +35,7 @@ This project connects a front-end interface built with HTML, CSS, and JavaScript
 
 ## Credits
 
-- **Front-End Developer**: [Zarox](https://github.com/Zarox)
+- **Front-End Developer**: [Zarox](https://github.com/ZAR0X)
 - **Back-End Developer & GPT API**: [Vauth](https://github.com/Vauth)
 
 ## Contributing

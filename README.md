@@ -12,6 +12,10 @@ DuckGPT GUI is a user-friendly web-based interface for interacting with GPT-base
 
 Check out the live demo [here](https://zarox.is-a.dev/duck-gui/).
 
+## Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zar0x/duck-gui)
+
 ## How It Works
 
 This project connects a front-end interface built with HTML, CSS, and JavaScript to a GPT API backend for conversational capabilities.

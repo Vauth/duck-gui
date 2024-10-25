@@ -17,15 +17,19 @@ marked.setOptions({
 
 // console.log(window.navigator.platform)
 
+let apiUrl;
+let styleUrl;
+let lightUrl;
+
 if (window.location.origin.includes("workers.dev")) {
-  const apiUrl = window.location.origin + "/chat/";
-  const styleUrl = "https://zar0x.github.io/duck-gui/styles/styles.css";
-  const lightUrl = "https://zar0x.github.io/duck-gui/styles/light.css";
+  apiUrl = window.location.origin + "/chat/";
+  styleUrl = "https://zar0x.github.io/duck-gui/styles/styles.css";
+  lightUrl = "https://zar0x.github.io/duck-gui/styles/light.css";
 }
 else {
-  const apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
-  const styleUrl = "styles/styles.css";
-  const lightUrl = "styles/light.css";
+  apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
+  styleUrl = "styles/styles.css";
+  lightUrl = "styles/light.css";
 }
 
 const chatBox = document.getElementById("chat-box");

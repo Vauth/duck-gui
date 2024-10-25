@@ -17,7 +17,16 @@ marked.setOptions({
 
 // console.log(window.navigator.platform)
 
-const apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
+if (window.location.origin.includes("workers.dev")) {
+  const apiUrl = window.location.origin + "/chat/";
+  const styleUrl = "https://zar0x.github.io/duck-gui/styles/styles.css";
+  const lightUrl = "https://zar0x.github.io/duck-gui/styles/light.css";
+}
+else {
+  const apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
+  const styleUrl = "styles/styles.css";
+  const lightUrl = "styles/light.css";
+}
 
 const chatBox = document.getElementById("chat-box");
 const chatInput = document.getElementById("chat-input");
@@ -77,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }}
   
   const link = document.createElement('link');
-  link.href = 'styles/styles.css';
+  link.href = styleUrl;
   link.rel = 'stylesheet';
   document.head.appendChild(link);
 });
@@ -231,7 +240,7 @@ function addParticles(element, pColors){
 
 function applyLightTheme() {
   const link = document.createElement('link');
-  link.href = 'styles/light.css'; 
+  link.href = lightUrl; 
   link.rel = 'stylesheet';
   link.id = 'lightThemeCss';
   document.head.appendChild(link);

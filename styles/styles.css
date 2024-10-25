@@ -15,8 +15,6 @@
     --lBlack: #1e1e1e;
 }
 
-
-
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
@@ -150,6 +148,7 @@ canvas {
     display: flex;
     justify-content: space-between;
     position: fixed ;
+    gap: 1em;
     z-index: 6;
     top: 0;
 }
@@ -296,6 +295,22 @@ input:checked + .slider:before {
 
 input:checked + .slider:before {
     transform: translateX(1rem);
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.socials a {
+    color: var(--lWhite);
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.socials a:hover {
+    color: #9BC6FF;
 }
 
 .chat-container {

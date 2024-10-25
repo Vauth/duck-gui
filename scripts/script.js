@@ -17,7 +17,8 @@ marked.setOptions({
 
 // console.log(window.navigator.platform)
 
-const apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/";
+const apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
+
 const chatBox = document.getElementById("chat-box");
 const chatInput = document.getElementById("chat-input");
 var query = false

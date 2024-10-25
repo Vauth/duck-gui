@@ -48,6 +48,9 @@ a {
     color: #e1e1e1 !important ;
 }
 
+.socials a {
+    color: #1e1e1e !important;
+}
 
 .message-card {
     background: rgba(0, 0, 0, 0.2) !important ;

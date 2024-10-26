@@ -23,8 +23,8 @@ let lightUrl;
 
 if (window.location.origin.includes("workers.dev")) {
   apiUrl = window.location.origin + "/chat/";
-  styleUrl = "https://zar0x.github.io/duck-gui/styles/styles.css";
-  lightUrl = "https://zar0x.github.io/duck-gui/styles/light.css";
+  styleUrl = "https://vauth.github.io/duck-gui/styles/styles.css"; // Changeable 
+  lightUrl = "https://vauth.github.io/duck-gui/styles/light.css"; // Changeable
 }
 else {
   apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
